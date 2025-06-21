@@ -68,3 +68,7 @@ app.use((req, res, next) => {
     log(`serving on port ${port}`);
   });
 })();
+"scripts": {
+  "build": "tsc",
+  "start": "node dist/index.js"
+}
