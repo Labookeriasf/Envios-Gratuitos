@@ -4,7 +4,7 @@ services:
     env: node
     plan: free
     rootDir: server
-    buildCommand: npm install
+    buildCommand: npm install && npm run build
     startCommand: node index.js # o: npm start si lo definís en el package.json
     envVars:
       - key: NODE_ENV
