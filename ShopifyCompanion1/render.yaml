@@ -3,6 +3,7 @@ services:
     name: shopify-free-shipping
     env: node
     plan: free
+    rootDir: .
     buildCommand: npm install && npm run build
     startCommand: npm start
     envVars:
